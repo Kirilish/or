@@ -1,0 +1,484 @@
+@media (max-width: 768px) {
+  .container {
+    max-width: 868px;
+    padding: 0 50px;
+  }
+  .header {
+    background-color: #edf2ec;
+    padding: 25px 0 30px 0;
+  }
+  /*   .welcome{
+    height: 420px;
+  } */
+  .header__nav {
+    padding-bottom: 0;
+    justify-content: flex-start;
+    gap: 139px;
+  }
+  .nav {
+    margin-top: 5px;
+  }
+  .nav-list {
+    margin-left: 5px;
+  }
+  .welcome__row {
+    padding: 25px 0 62px 0;
+    flex-direction: row-reverse;
+    column-gap: 42px;
+  }
+  .welcome-content {
+    flex-basis: 346px;
+    font-weight: 400;
+  }
+  .welcome-img img {
+    margin-top: 12px;
+    width: 280px;
+  }
+  .welcome-heading {
+    margin-top: 4px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .welcome-text {
+    margin-bottom: 35px;
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .about__row {
+    display: block;
+    padding: 0px 0 90px 0;
+  }
+
+  .about-block {
+    padding-top: 41px;
+  }
+  .about-title {
+    margin-bottom: 47px;
+    max-width: 463px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    margin-left: 100px;
+  }
+  .about-img img {
+    margin-top: 72px;
+    margin-left: 210px;
+    width: 250px;
+  }
+  .service {
+    padding-bottom: 79px;
+  }
+  .service__nav {
+    display: block;
+    padding-top: 60px;
+  }
+  .service-title {
+    flex-basis: 50px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+  }
+  .service-menu {
+    margin-top: 43px;
+    gap: 37px;
+  }
+  .service__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 106px;
+    row-gap: 43px;
+    margin-top: 40px;
+  }
+  .service-img {
+    height: 350px;
+    width: 280px;
+  }
+  .service-block-title {
+    padding: 10px 0;
+  }
+  .service-block-text {
+    padding-bottom: 12px;
+    text-align: center;
+    max-width: 201px;
+    margin-left: 40px;
+  }
+  .prices-card {
+    margin-top: 58px;
+  }
+  .prices-btn {
+    margin-top: 32px;
+  }
+  .left-text {
+    margin-left: 15px;
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .right-text {
+    margin-top: 100px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .prices-us-btn {
+    margin-top: 27px;
+  }
+  .contacts {
+    position: relative;
+    height: 739px;
+    background: #edf2ec;
+  }
+  .contacts-title {
+    padding-top: 40px;
+  }
+  .contacts img {
+    order: 3;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+  }
+  .contacts img {
+    order: 3;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 22px;
+  }
+  .citys {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contacts-wrapper {
+    flex-direction: column;
+  }
+  .contacts-img img {
+    width: 200px;
+    height: 248.49px;
+    margin-top: 305px;
+    margin-left: 20px;
+  }
+  .create {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0 25px;
+  }
+  .header {
+    padding: 24px 0 27px 0;
+  }
+  .burger-menu {
+    position: relative;
+    display: block;
+    z-index: 100;
+  }
+  .burger-menu.active .bar:nth-child(1) {
+    opacity: 0;
+  }
+
+  .burger-menu.active .bar:nth-child(2) {
+    transform: translateY(5px) rotate(45deg);
+  }
+
+  .burger-menu.active .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+  }
+
+  .burger-menu.active .bar:nth-child(4) {
+    opacity: 0;
+  }
+
+  .nav-list {
+    position: fixed;
+    left: 120%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    top: 0px;
+    gap: 10px;
+    flex-direction: column;
+    background-color: #edf2ec;
+    font-size: 35px;
+    padding: 35px 0 45px 0;
+    transition: all 1s;
+    z-index: 100;
+  }
+  .nav-list.active {
+    left: 0;
+    transition: all 1s;
+  }
+
+  #blanket.active {
+    display: block;
+  }
+
+  #blanket {
+    display: none;
+    background-color: #111;
+    opacity: 0.65;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 800vh;
+    z-index: 10;
+  }
+
+  .header__nav {
+    justify-content: space-between;
+  }
+  .welcome-img {
+    display: none;
+  }
+  .welcome__row {
+    padding: 9px 0 17px 0;
+    display: block;
+  }
+  .welcome-heading {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .welcome-text {
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .welcome-button {
+    padding: 4px 16px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .about__row {
+    padding: 0px 0 30px 0;
+  }
+  .about-block {
+    padding-top: 30px;
+  }
+  .about-title {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .about-text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .about-img img {
+    margin-top: 5px;
+    margin-left: 90px;
+    width: 150px;
+    height: 147px;
+  }
+  .service {
+    padding-bottom: 32px;
+  }
+  .service__nav {
+    display: block;
+    padding-top: 28px;
+    align-items: center;
+    gap: 142px;
+  }
+  .service-title {
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .service-menu {
+    margin-top: 38px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    line-height: 20px;
+    gap: 10px;
+  }
+  .service-btn {
+    min-width: 121px;
+    padding: 7px 1px;
+  }
+  .service-img {
+    width: 279px;
+    height: 350px;
+  }
+  .service__row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 72px;
+    row-gap: 38px;
+    margin-top: 39px;
+    align-content: center;
+    flex-direction: column;
+  }
+  .service-block-text {
+    padding-bottom: 20px;
+  }
+  .block-description {
+    margin-top: -10px;
+  }
+  .prices-nav {
+    margin-top: 24px;
+  }
+  .left-text {
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .prices__body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .prices-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+    margin-left: 0px;
+    width: 224px;
+  }
+  .prices-btn {
+    width: 180px;
+    height: 49.72px;
+    margin-top: 20px;
+    margin-left: 18px;
+  }
+  .btn-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prices-right {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    flex-basis: 0px;
+  }
+  .prices-accourdion {
+    margin-left: 18px;
+    margin-top: 0;
+    width: 180px;
+    height: 122px;
+    border-radius: 0 0 20px 20px;
+  }
+  .hr {
+    margin-left: 0;
+    width: 100px;
+    height: 0px;
+    margin-top: -9px;
+    border: 0.5px solid #aea1a1;
+}
+  .right-text {
+    max-width: 230px;
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+  }
+  .prices-us-btn {
+    margin-top: 19px;
+    padding: 7px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .prices-btn-open {
+    width: 180px;
+    height: 49.72px;
+  }
+  .prices-img {
+    display: none;
+  }
+  .contacts {
+    height: 445px;
+  }
+  .contacts-title {
+    padding-top: 24px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+  .contacts-wrapper {
+    padding-top: 9px;
+    align-items: center;
+  }
+  .select-wrapper {
+    padding-top: 63px;
+  }
+  .select-trigger {
+    min-width: 295px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 18px;
+  }
+  .arrow {
+    margin-right: 0;
+  }
+  .open .select-trigger {
+    min-width: 295px;
+    margin-left: 15px;
+    margin-right: 55px;
+    padding: 0 18px;
+  }
+  .custom-options {
+    margin: 0 14px;
+    min-width: 298px;
+  }
+  .field p {
+    line-height: 20px;
+    height: 40px;
+  }
+  .select-wrapper.open {
+    padding-bottom: 49px;
+    padding-top: 33px;
+  }
+  .info p {
+    line-height: 20px;
+    height: 40px;
+    max-width: 160px;
+    padding-left: 10px;
+  }
+  .contacts h2 {
+    padding-left: 0;
+  }
+  .contacts img {
+    max-width: 100px;
+    padding-top: 0;
+    margin: -138px auto 0 auto;
+  }
+  .city {
+    margin: 0 14px 55px 13px;
+    padding: 33px 21px 22px 21px;
+  }
+  .info button {
+    margin: 8px 0 0 -58px;
+  }
+  .city-show {
+    display: flex;
+  }
+  .contacts img.open {
+    display: none;
+  }
+  .contacts h2 {
+    font-size: 25px;
+  }
+  .contacts-menu {
+    margin-top: 15px;
+  }
+  .contact-btn {
+    width: 300px;
+  }
+  .contacts-down {
+    margin-right: 22px;
+  }
+  .create {
+    padding: 9px;
+  }
+  .create-rs {
+    margin-top: -12px;
+  }
+}
